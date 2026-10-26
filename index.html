@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23d97706' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polygon points='12 2 2 7 12 12 22 7 12 2'/><polyline points='2 17 12 22 22 17'/><polyline points='2 12 12 17 22 12'/></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (function() {
+        try {
+          var t = localStorage.getItem('ruturaj_portfolio_theme');
+          if (t === 'light') {
+            document.documentElement.classList.add('light');
+            document.documentElement.setAttribute('data-theme', 'light');
+          } else {
+            document.documentElement.classList.add('dark');
+            document.documentElement.setAttribute('data-theme', 'dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Ruturaj Patil — Game Designer</title>
+    <meta name="title" content="Ruturaj Patil — Game Designer" />
+    <meta name="description" content="Portfolio of Ruturaj Yogesh Patil, a Game Designer focused on gameplay systems, player experience, Unreal Engine, multiplayer games, and interactive experiences." />
+    <meta name="author" content="Ruturaj Yogesh Patil" />
+    <meta name="keywords" content="Game Designer, Gameplay Design, Unreal Engine 5, Player Experience, Multiplayer Games, Game Mechanics, Mumbai" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ruturajpatil.dev/" />
+    <meta property="og:title" content="Ruturaj Patil — Game Designer" />
+    <meta property="og:description" content="Portfolio of Ruturaj Yogesh Patil, a Game Designer focused on gameplay systems, player experience, Unreal Engine, multiplayer games, and interactive experiences." />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Ruturaj Patil — Game Designer" />
+    <meta property="twitter:description" content="Portfolio of Ruturaj Yogesh Patil, a Game Designer focused on gameplay systems, player experience, Unreal Engine, multiplayer games, and interactive experiences." />
+
+    <!-- Google Fonts: Space Grotesk & Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#09090b] text-[#f4f4f5] antialiased selection:bg-amber-500/20 selection:text-amber-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
